@@ -7,8 +7,8 @@ describe('yaoms-ng-cli App', () => {
     page = new YaomsNgCliPage();
   });
 
-  it('should display message saying app works', () => {
+  it('should display message saying apps works', () => {
     page.navigateTo();
-    expect(page.getParagraphText()).toEqual('app works!');
+    expect(page.getParagraphText()).toEqual('apps works!');
   });
 });
