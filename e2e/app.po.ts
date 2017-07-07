@@ -6,6 +6,6 @@ export class YaomsNgCliPage {
   }
 
   getParagraphText() {
-    return element(by.css('app-root h1')).getText();
+    return element(by.css('apps-root h1')).getText();
   }
 }
